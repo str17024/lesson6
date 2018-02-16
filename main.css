@@ -1,0 +1,120 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  margin:0;
+  padding:0;
+  font-family: arial, helvetica, sans-serif
+
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { 
+   color: green;
+   margin-left: auto;
+   margin-right: auto;
+  /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    border-size: 6px;
+    border-color: black;
+    background-color: #9ad08e; 
+  
+
+}
+h1 {
+    font-size:  2.4rem;
+    color:  #0da4c3 ;
+    float: center;
+    
+    
+}
+header img {
+    width: 10%;
+    height: auto;
+    float: left;
+}
+h2 {
+    font-size:  1.4rem ;
+    text-align: center;
+    
+}
+header .subheading {
+    font-size: 1.4rem;
+    color: #a72170;
+    float: center;
+}
+
+nav {}
+nav button {}
+nav ul {}
+nav ul li {}
+nav ul li a {}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+main {
+   border-size: 2px;
+   border-style: solid;
+    
+}
+main h2 {
+    font-size: 2.5rem;
+    color: #bdd967;
+    float: center;
+    text-align: center;
+    
+}
+main figure { 
+    margin: 0 0 .2rem 2%;
+    float: center;
+    
+
+}
+main figure img { 
+    float: left;
+    width: 40%;
+    height: 25em;
+    padding: 3em;
+}
+
+section {
+    font-size: 1.6rem;
+    text-color: black;
+    float: center;
+ 
+
+}
+
+section forcast {
+    text-color: red;
+    float: center;
+    text-align: center;
+  
+}
+section forcast h3 {
+    text-color: yellow;
+    float: center;
+}
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: 100%; /* fill the page in the small/phone view */
+  margin: 2em;
+  font-family: 'Tangerine', serif;
+  font-size: 24em;
+}
+
+article p.town-artile {
+font-family: 'Tangerine', serif;
+  font-size: 24em;
+}
+
+footer {}
+footer aside {}
+footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
