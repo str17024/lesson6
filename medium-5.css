@@ -1,7 +1,22 @@
-@media only screen and (min-width: 37.5em) {
-  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
-  
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+} /*end medium */
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
   nav button { display:none; }  /* hamburger button does not need to be shown */
+
+nav ul li { 
+  float: left;
+  
+}
   
   section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
   
