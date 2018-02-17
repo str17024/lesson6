@@ -43,6 +43,8 @@ nav ul li a:hover {
     
 }
 
+nav ul.hide {diplay:none;}
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
