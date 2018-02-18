@@ -7,13 +7,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
-    border:none;
+    border: none;
     font-size: 1.6rem;
-    color: #555;}
+    color: #fff;}
 
 nav {
-    background-color: #ccc;
-    font-family: verdana, sans-serif;}
+    background-color: #aa0000;
+    font-family: Verdana, sans-serif;}
 
 nav ul {
     list-style-type: none;
@@ -25,7 +25,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #000;
+    color: rgba(255,255,255,0.8);
     border-top: 1px solid rgba(0,0,0,0.3);}
 
 nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
