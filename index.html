@@ -45,7 +45,7 @@
   <!-- external style references in the proper cascading order -->    
   <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">  <!-- Google API font reference -->
   <link href="normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
-  <link href="main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <!--<link href="main.css" rel="stylesheet">  -->  <!-- default styles - small/phone views -->
   <link href="medium-5.css" rel="stylesheet">  <!-- medium/tablet views -->
   <link href="large-5.css" rel="stylesheet">   <!-- large/wide/desktop views -->
   <link href="small.css" rel="stylesheet">   <!-- small views --> 	
@@ -57,7 +57,10 @@
     
   <header>
     	  
-    <img src="sunnyday1.jpeg" alt="CoatOrNot site logo" width="10%" height="50em">
+    <img src="sunnyday1.jpeg" alt="CoatOrNot site logo" width="10%" height="50em" 
+	 srcset="sunnyday1.jpeg 1x, images/space-needle-2x.jpg 2x,
+images/space-needle-hd.jpg 3x"
+	 >
     <h1>CoatOrNot</h1>
     <div class="subheading">Should I bring a coat... or not?</div>
 	
