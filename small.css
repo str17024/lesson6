@@ -46,11 +46,11 @@ nav ul li a:hover {
 nav ul.hide {diplay:none;}
 
 
-/*----- Clearfix: Force an Element not to collapse -----
+/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
   display: table;
-  clear: both; */
+  clear: both; 
     
    section.forecast { display: none; } /* show the 10-day forecast with the medium view and up */ 
     
