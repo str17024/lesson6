@@ -10,10 +10,7 @@ nav button {
     border:none;
     font-size: 1.6rem;
     color: #555;
-        
-    
 }
-
 
 nav {
     background-color: #ccc;
@@ -36,12 +33,9 @@ nav ul li a {
 
 }
 
-nav ul li.active a { background-color: rgba (0,0,0,0.2); color: #fff;}
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
 
-nav ul li a:hover {
-    background-color: rgba (0,0,0,0.4);
-    
-}
+nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
 
 nav ul.hide {diplay:none;}
 
