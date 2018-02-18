@@ -72,7 +72,7 @@ main figure {
 main figure img { 
     float: left;
     width: 40%;
-    height: 25em;
+    height: auto;
     padding: 3em;
 }
 
@@ -93,6 +93,7 @@ section forcast {
 section forcast h3 {
     text-color: yellow;
     float: center;
+    width: auto;
 }
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
