@@ -51,6 +51,10 @@ nav ul.hide {diplay:none;}
   content: "";
   display: table;
   clear: both;
+    
+   section.forecast { display: none; } /* show the 10-day forecast with the medium view and up */ 
+    
+    
 }
 
 
