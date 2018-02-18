@@ -13,7 +13,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', end
   
 }
 
- /* nav button {display:none;} */ /* hamburger button does not need to be shown */
+  nav button {display:none;}  /* hamburger button does not need to be shown */
 
 nav ul {
  margin-left: 2%; 
